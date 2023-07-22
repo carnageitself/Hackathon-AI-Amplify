@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../components/Loader";
 
 const Space = () => {
 
@@ -25,7 +25,7 @@ const Space = () => {
   )
 }
 
-const SpaceCanvas = () => {
+const SpaceCanvas:React.FC = () => {
     return (
       <Canvas
         shadows
