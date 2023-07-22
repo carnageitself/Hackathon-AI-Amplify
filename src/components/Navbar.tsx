@@ -31,7 +31,7 @@ const Navbar:React.FC = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-[#121212]" : "bg-transparent"
+        scrolled ? "bg-[#191919]" : "bg-black"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>

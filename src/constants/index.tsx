@@ -27,12 +27,12 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "",
+    title: "Home",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -172,7 +172,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Generate Book Summary.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +180,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Next Sentence Prediction.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +188,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Recognizing the Flower Types – Rose, Chamomile, Dandelion, Sunflower, & Tulip with Convolution Neural Network.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",

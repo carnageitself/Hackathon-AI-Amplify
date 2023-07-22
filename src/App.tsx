@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import React from "react"
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 function App() {
   const Layout: React.FC = () => {
@@ -28,8 +29,12 @@ function App() {
         },
         {
           path: "/contact",
-          element: <Contact/>,
-        }
+          element: <About/>,
+        },
+        {
+          path: "/projects",
+          element: <Projects/>,
+        },
       ]
     },
   ]);

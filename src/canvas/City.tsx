@@ -9,16 +9,16 @@ const computer = useGLTF("./nightcity/scene.gltf")
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black"/>
+      <hemisphereLight intensity={0.5} groundColor="black"/>
       <pointLight intensity={1} />
       
       <spotLight 
-      position={[-20, 50, 10]}
-      angle={0.12}
-      penumbra={1}
-      intensity={1}
-      castShadow
-      shadow-mapSize={1024}
+    position={[-20, 100, 20]}
+    angle={0.12}
+    penumbra={1}
+    intensity={2}
+    castShadow
+    shadow-mapSize={1024}
       />
       <primitive
       object={computer.scene}
@@ -30,7 +30,7 @@ const computer = useGLTF("./nightcity/scene.gltf")
   )
 }
 
-const CityCanvas:React.FC = () => {
+const CityCanvas:React.FC= () => {
   return(
     <Canvas frameloop='demand' shadows camera={{ position: [20, 10, 5], fov:20}} gl={{preserveDrawingBuffer: true}} id='bg-transparent'>
       <Suspense fallback={<CanvasLoader/>}>
