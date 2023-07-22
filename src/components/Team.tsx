@@ -25,7 +25,7 @@ const people = [
       },
       {
         name: 'Ritesh Singh',
-        role: 'AIML Developer',
+        role: 'Web Developer',
         imageUrl:
         `${ritesh}`
       },
@@ -44,7 +44,7 @@ const people = [
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
             <h2 className={`text-3xl font-bold tracking-tight ${styles.heroHeadText} sm:text-4xl`}>Meet our leadership</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className={`mt-6 text-lg leading-8 ${styles.sectionSubText}`}>
               Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
               suspendisse.
             </p>
@@ -56,7 +56,7 @@ const people = [
                   <img className="h-16 w-16 rounded-full object-cover" src={person.imageUrl} alt="" />
                   <div>
                     <h3 className={`text-base font-semibold leading-7 tracking-tight ${styles.heroSubText}`}>{person.name}</h3>
-                    <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                    <p className={`text-sm font-semibold leading-6 ${styles.sectionSubText} text-indigo-600`}>{person.role}</p>
                   </div>
                 </div>
               </li>

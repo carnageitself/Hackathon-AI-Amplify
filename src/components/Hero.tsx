@@ -1,6 +1,7 @@
 import React from "react";
 import { styles } from "../styles";
-// import CityCanvas from "../canvas/City";
+// import Banner from "./Banner";
+import CityCanvas from "../canvas/City";
 
 const Hero: React.FC = () => {
   return (
@@ -12,18 +13,19 @@ const Hero: React.FC = () => {
         </div>
 
         <div>
+            {/* <Banner/> */}
           <h1 className={`${styles.heroHeadText} text-white`}>
-            {/* Hi, I'm <span className="text-[#915EFF]">Yash</span> */}
+            Embrace <span className="text-[#915EFF]">Ai</span>
           </h1>
-          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user interfaces&nbsp;
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          Where Imagination Meets&nbsp;
             <br className="sm:block hidden" />
-            and web applications
-          </p> */}
+            Reality.
+          </p>
         </div>
       </div>
 
-      {/* <CityCanvas /> */}
+      <CityCanvas />
       
     </section>
   );
