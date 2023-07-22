@@ -3,10 +3,9 @@ import {
   backend,
   creator,
   web,
-  javascript,
+  gdsc,
   typescript,
-  html,
-  css,
+  gfg,
   reactjs,
   redux,
   tailwind,
@@ -23,6 +22,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -61,16 +61,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "GFG",
+    icon: gfg,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Gdsc",
+    icon: gdsc,
   },
   {
     name: "TypeScript",

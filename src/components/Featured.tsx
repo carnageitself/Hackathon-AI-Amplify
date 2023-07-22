@@ -3,27 +3,27 @@ import { styles } from "../styles";
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: '24/7 Availability',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Chatbots using AIML can operate around the clock, providing instant responses to users at any time of the day, improving customer service and user engagement.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Data Collection and Analytics',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      ' AIML-powered chatbots can collect user data and interactions, providing valuable insights into user behavior and preferences, which can be used to improve the website and services.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Natural Language Processing',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'AIML allows developers to implement natural language processing capabilities into websites, enabling them to understand and respond to user input in a more human-like manner.',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Personalization',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      ' By analyzing user interactions, an AIML-based chatbot can offer personalized recommendations and content based on individual preferences and needs.',
     icon: FingerPrintIcon,
   },
 ]
@@ -47,7 +47,7 @@ export default function Featured() {
                   </div>
                   {feature.name}
                 </dt>
-                <dd className={`mt-2 text-lg leading-7 text-gray-700 font-normal`}>{feature.description}</dd>
+                <dd className={`mt-2 text-lg leading-7 text-blue-300 font-normal`}>{feature.description}</dd>
               </div>
             ))}
           </dl>
