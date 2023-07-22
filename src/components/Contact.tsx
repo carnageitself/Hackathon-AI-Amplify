@@ -29,7 +29,7 @@ export default function Contact() {
           Contact
         </h2>
         <p className={`mt-8 mb-3 text-lg leading-8 ${styles.sectionSubText}`}>
-          Aute magna irure deserunt veniam aliqua magna enim voluptate.
+        "Let's Stay Connected: Reach Out and Spark the Conversation!"
         </p>
       </div>
       <form
@@ -151,7 +151,7 @@ export default function Contact() {
                 checked={agreed}
                 onChange={setAgreed}
                 className={classNames(
-                  agreed ? "bg-indigo-600" : "bg-gray-200",
+                  agreed ? "bg-cyan-600" : "bg-gray-600",
                   "flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 )}
               >
@@ -167,7 +167,7 @@ export default function Contact() {
             </div>
             <Switch.Label className="text-md leading-6 text-gray-600">
               By selecting this, you agree to our{" "}
-              <a href="#" className="font-semibold text-indigo-600">
+              <a href="#" className="font-semibold text-blue-500">
                 Privacy&nbsp;Policy
               </a>
               .
@@ -177,7 +177,7 @@ export default function Contact() {
         <div className="mt-10">
           <button
             type="submit"
-            className={`block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold ${styles.sectionSubText} shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
+            className={`block w-full rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold ${styles.sectionSubText} shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
           >
             Let's talk
           </button>

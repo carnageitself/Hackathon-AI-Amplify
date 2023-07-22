@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         <div>
             {/* <Banner/> */}
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Embrace <span className="text-[#915EFF]">Ai</span>
+            Embrace <span className="text-blue-500">Ai</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Where Imagination Meets&nbsp;
